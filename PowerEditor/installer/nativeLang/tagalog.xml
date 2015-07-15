@@ -6,13 +6,13 @@
                 <!-- Main Menu Entries -->
 				<Entries>
 					<Item menuId="file" name = "&amp;Pila"/>
-					<Item menuId="edit" name = "&amp;Ayusin"/>
+					<Item menuId="edit" name = "&amp;Baguhin"/>
 					<Item menuId="search" name = "Mag&amp;hanap"/>
-					<Item menuId="view" name = "&amp;Tignan"/>
+					<Item menuId="view" name = "&amp;Tingnan"/>
 					<Item menuId="encoding" name = "A&amp;nyo"/>
 					<Item menuId="language" name = "&amp;Wika"/>
 					<Item menuId="settings" name = "Ka&amp;lagayan"/>
-					<Item menuId="macro" name = "Laki"/>
+					<Item menuId="macro" name = "macro"/>
 					<Item menuId="run" name = "Takbo"/>
 					<Item idName = "Plugins" name = "Mga Plugin"/>
 					<Item idName = "Window" name = "Dungawan"/>
@@ -20,7 +20,7 @@
 
                 <!-- Sub Menu Entries -->
                 <SubEntries>
-                    <Item subMenuId="edit-copyToClipboard" name = "Isipi sa Klipbord"/>
+                    <Item subMenuId="edit-copyToClipboard" name = "I-kopya sa Klipbord"/>
                     <Item subMenuId="edit-indent" name = "Ipasok"/>
                     <Item subMenuId="edit-convertCaseTo" name = "Baguhin ang kaso"/>
                     <Item subMenuId="edit-lineOperations" name = "Mga Pangangasiwa sa Taludtod"/>
@@ -28,9 +28,9 @@
                     <Item subMenuId="edit-autoCompletion" name = "Kusang Pagtatapos"/>
                     <Item subMenuId="search-markAll" name = "Tatakan lahat"/>
                     <Item subMenuId="search-unmarkAll" name = "Di tatakan lahat"/>
-                    <Item subMenuId="view-showSymbol" name = "Ipakita ang Sagisag"/>
+                    <Item subMenuId="view-showSymbol" name = "Ipakita ang Simbolo"/>
                     <Item subMenuId="view-zoom" name = "Palapitin"/>
-                    <Item subMenuId="view-moveCloneDocument" name = "Ilipat ang kasalukuyang kasulatan"/>
+                    <Item subMenuId="view-moveCloneDocument" name = "Ilipat ang kasalukuyang Dokyument"/>
 
                     <Item subMenuId="view-collapseLevel" name = "Pabagsakin ang antas"/>
                     <Item subMenuId="view-uncollapseLevel" name = "Di pabagsakin ang antas"/>
@@ -38,11 +38,11 @@
 
                 <!-- all menu item -->
                 <Commands>
-                    <Item id = "41001" name = "&amp;Magbago"/>
+                    <Item id = "41001" name = "&amp;Bago"/>
                     <Item id = "41002" name = "&amp;Buksan"/>
                     <Item id = "41003" name = "Isara"/>
                     <Item id = "41004" name = "I&amp;sara Lahat"/>
-                    <Item id = "41005" name = "Isara LAHAT maliban sa kasalukuyang kasulatan"/>
+                    <Item id = "41005" name = "Isara LAHAT maliban sa kasalukuyang Dokyument"/>
                     <Item id = "41006" name = "I&amp;tabi"/>
                     <Item id = "41007" name = "Ita&amp;bi Lahat"/>
                     <Item id = "41008" name = "It&amp;abi Bilang..."/>
@@ -52,12 +52,12 @@
 					<Item id = "41012" name = "Kunin ang Session..."/>
                     <Item id = "41013" name = "Itabi ang Session..."/>
                     <Item id = "41014" name = "Kunin muli sa Disk"/>
-                    <Item id = "41015" name = "Itabi ang Sipi Bilang..."/>
+                    <Item id = "41015" name = "Itabi ang Kopya Bilang..."/>
                     <Item id = "41016" name = "Burahin sa Disk"/>
                     <Item id = "41017" name = "Pangalanang muli..."/>
 
                     <Item id = "42001" name = "&amp;Gupitin"/>
-                    <Item id = "42002" name = "&amp;Sipiin"/>
+                    <Item id = "42002" name = "&amp;Kopyahin"/>
                     <Item id = "42003" name = "&amp;Di-gawin"/>
                     <Item id = "42004" name = "&amp;Gawing muli"/>
                     <Item id = "42005" name = "I&amp;dikit"/>
@@ -68,33 +68,33 @@
                     <Item id = "42010" name = "Ulitin ang Kasalukuyang Taludtod"/>
                     <Item id = "42012" name = "Paghiwalayin ang mga taludtod"/>
                     <Item id = "42013" name = "Pagsamahin ang mga taludtod"/>
-                    <Item id = "42014" name = "Umakyat sa kasalukuyang taludtod"/>
-                    <Item id = "42015" name = "Bumaba sa kasalukuyang taludtod"/>
-                    <Item id = "42016" name = "sa TAASKASO"/>
-                    <Item id = "42017" name = "sa babangkaso"/>
-                    <Item id = "42018" name = "&amp;Simulang I-Rekord"/>
-                    <Item id = "42019" name = "Tapu&amp;sing I-Rekord"/>
+                    <Item id = "42014" name = "I-akyat kasalukuyang taludtod"/>
+                    <Item id = "42015" name = "I-baba ang kasalukuyang taludtod"/>
+                    <Item id = "42016" name = "TAASKASO"/>
+                    <Item id = "42017" name = "babangkaso"/>
+                    <Item id = "42018" name = "&amp;Simulang Mag-Rekord"/>
+                    <Item id = "42019" name = "Tapu&amp;sing Mag-Rekord"/>
                     <Item id = "42021" name = "&amp;Pleybak"/>
-                    <Item id = "42022" name = "Ilagay sa de-blokeng puna"/>
-                    <Item id = "42023" name = "Idaloy ang puna"/>
+                    <Item id = "42022" name = "I-toggle ang isang linyang puna"/>
+                    <Item id = "42023" name = "I-puna ang Blok"/>
                     <Item id = "42024" name = "Putulin ang Labis na Puwang"/>
                     <Item id = "42025" name = "Itabi ang kasalukuyang inirecord na macro"/>
                     <Item id = "42026" name = "Sumulat Pakaliwa"/>
                     <Item id = "42027" name = "Sumulat Pakanan"/>
                     <Item id = "42028" name = "Basa Lang"/>
-                    <Item id = "42029" name = "Kasalukuyang buong daan sa pila tungo sa Clipboard"/>
-                    <Item id = "42030" name = "Kasalukuyang ngalan ng pila tungo sa Clipboard"/>
-                    <Item id = "42031" name = "Kasalukuyang daan sa dir tungo sa Clipboard"/>
+                    <Item id = "42029" name = "Ilagay ang Kasalukuyang daan sa pila sa Clipboard"/>
+                    <Item id = "42030" name = "Ilagay ang Kasalukuyang ngalan ng pila sa Clipboard"/>
+                    <Item id = "42031" name = "Ilagay ang Kasalukuyang daan sa Dir. sa Clipboard"/>
                     <Item id = "42032" name = "Patakbuhin ang macro ng ilang ulit..."/>
-                    <Item id = "42033" name = "Burahin ang basahin lang na watawat"/>
-					<Item id = "42035" name = "Blokeng puna"/>
-					<Item id = "42036" name = "Blokeng di-puna"/>
+                    <Item id = "42033" name = "Burahin ang basa-lang na watawat"/>
+					<Item id = "42035" name = "Isang Linyang puna"/>
+					<Item id = "42036" name = "Isang Linyang di-puna"/>
 
                     <Item id = "43001" name = "&amp;Hanapin..."/>
                     <Item id = "43002" name = "Hanapin ang &amp;Sumunod"/>
                     <Item id = "43003" name = "Palitan..."/>
-                    <Item id = "43004" name = "Pumunta sa taludtod..."/>
-                    <Item id = "43005" name = "Gawing Aklat-Tanda"/>
+                    <Item id = "43004" name = "Pumunta sa..."/>
+                    <Item id = "43005" name = "I-toggle ang Aklat-Tanda"/>
                     <Item id = "43006" name = "Susunod na Aklat-Tanda"/>
                     <Item id = "43007" name = "Nakaraang Aklat-Tanda"/>
                     <Item id = "43008" name = "Burahin lahat ng Aklat-Tanda"/>
@@ -106,41 +106,41 @@
                     <Item id = "43015" name = "Hanapin (volatile) ang Nakaraan"/>
                     <Item id = "43016" name = "Tatakan lahat"/>
                     <Item id = "43017" name = "Di-tatakan lahat"/>
-                    <Item id = "43018" name = "Gupitin ang mga inaklat-takdang taludtod"/>
-                    <Item id = "43019" name = "Sipiin ang mga inaklat-takdang taludtod"/>
-                    <Item id = "43020" name = "Idikit sa () mga inaklat-takdang taludtod"/>
-                    <Item id = "43021" name = "Burahin ang mga inaklat-takdang taludtod"/>
-                    <Item id = "43022" name = "Gamit ang ika1ng style"/>
-                    <Item id = "43023" name = "Burahin ang ika1ng style"/>
-                    <Item id = "43024" name = "Gamit ang ika2ng style"/>
-                    <Item id = "43025" name = "Burahin ang ika2ng style"/>
-                    <Item id = "43026" name = "Gamit ang ika3ng style"/>
-                    <Item id = "43027" name = "Burahin ang ika3ng style"/>
-                    <Item id = "43028" name = "Gamit ang ika4ng style"/>
-                    <Item id = "43029" name = "Burahin ang ika4ng style"/>
-                    <Item id = "43030" name = "Gamit ang ika5ng style"/>
-                    <Item id = "43031" name = "Burahin ang ika5ng style"/>
+                    <Item id = "43018" name = "Gupitin ang mga inaklat-tandang taludtod"/>
+                    <Item id = "43019" name = "Sipiin ang mga inaklat-tandang taludtod"/>
+                    <Item id = "43020" name = "Idikit sa (Palitan) mga inaklat-tandang taludtod"/>
+                    <Item id = "43021" name = "Burahin ang mga inaklat-tandang taludtod"/>
+                    <Item id = "43022" name = "Gamit ang unang style"/>
+                    <Item id = "43023" name = "Burahin ang unang style"/>
+                    <Item id = "43024" name = "Gamit ang ikalawang style"/>
+                    <Item id = "43025" name = "Burahin ang ikalawang style"/>
+                    <Item id = "43026" name = "Gamit ang ikatlong style"/>
+                    <Item id = "43027" name = "Burahin ang ikatlong style"/>
+                    <Item id = "43028" name = "Gamit ang ika-4 na style"/>
+                    <Item id = "43029" name = "Burahin ang ika-4 na style"/>
+                    <Item id = "43030" name = "Gamit ang ika-5 na style"/>
+                    <Item id = "43031" name = "Burahin ang ika-5 na style"/>
                     <Item id = "43032" name = "Burahin lahat ng style"/>
-					<Item id = "44009" name = "I-Post-ito"/>
+                    <Item id = "44009" name = "I-Post-it"/>
                     <Item id = "44010" name = "Itiklop lahat"/>
                     <Item id = "44011" name = "Ginawa ng Gumagamit na Usapan"/>
                     <Item id = "44019" name = "Ipakita lahat ng character"/>
                     <Item id = "44020" name = "Ipakita ang Gabay sa Pagpasok"/>
                     <Item id = "44022" name = "Ibalot"/>
-                    <Item id = "44023" name = "Pala&amp;pitin	Ctrl-Mouse Wheel Up"/>
-                    <Item id = "44024" name = "Pala&amp;yuin	Ctrl-Mouse Wheel Down"/>
+                    <Item id = "44023" name = "Pala&amp;pitin	Ctrl+Mouse Wheel Up"/>
+                    <Item id = "44024" name = "Pala&amp;yuin	Ctrl+Mouse Wheel Down"/>
                     <Item id = "44025" name = "Ipakita ang Puting Puwang at TAB"/>
                     <Item id = "44026" name = "Ipakita ang Huli ng Taludtod"/>
                     <Item id = "44029" name = "Buklatin lahat"/>
                     <Item id = "44030" name = "Pabagsakin ang kasalukuyang antas"/>
                     <Item id = "44031" name = "Di pabagsakin ang kasalukuyang antas"/>
-                    <Item id = "44032" name = "Ilagay sa Buong Iskrino"/>
+                    <Item id = "44032" name = "I-toggle ang Buong-Iskrino"/>
                     <Item id = "44033" name = "Ibalik sa Nakatakdang layo"/>
-                    <Item id = "44034" name = "Ilagi sa taas"/>
+                    <Item id = "44034" name = "Palagi sa taas"/>
                     <Item id = "44035" name = "Pagsabayin ang Patayong Pag-scroll"/>
                     <Item id = "44036" name = "Pagsabayin ang Pahigang Pag-scroll"/>
-                    <Item id = "44041" name = "Ipakita ang sagisag sa balot"/>
-                    <Item id = "44072" name = "Ituon-pansin sa ibang tanawin"/>
+                    <Item id = "44041" name = "Ipakita ang simbolo ng balot"/>
+                    <Item id = "44072" name = "Ituon-pansin ang ibang tanawin"/>
 
                     <Item id = "45001" name = "I-Convert sa Windows Format"/>
                     <Item id = "45002" name = "I-Convert sa UNIX Format"/>
@@ -163,7 +163,7 @@
 
 
                     <Item id = "46001" name = "Styler Configurator..."/>
-                    <Item id = "47000" name = "Tungkol sa..."/>
+                    <Item id = "47000" name = "Tungkol sa Notepad++..."/>
                     <Item id = "47001" name = "Notepad++ Home"/>
                     <Item id = "47002" name = "Notepad++ Project Page"/>
                     <Item id = "47003" name = "Online na tulong"/>
@@ -171,10 +171,10 @@
                     <Item id = "47005" name = "Kumuha ng mga plugin"/>
 
                     <Item id = "48009" name = "Pangmapa ng Shortcut..."/>
-                    <Item id = "48011" name = "Kanaisan..."/>
+                    <Item id = "48011" name = "Kagustuhan..."/>
                     <Item id = "49000" name = "&amp;Takbo..."/>
 
-					<Item id = "50000" name = "Pagbuo ng Kagamitan"/>
+		    <Item id = "50000" name = "Pagbuo ng Function"/>
                     <Item id = "50001" name = "Pagbuo ng Salita"/>
                     <Item id = "50002" name = "Function parameters hint"/>
                     <Item id = "42034" name = "Pag-ayos ng mga Hanay..."/>
